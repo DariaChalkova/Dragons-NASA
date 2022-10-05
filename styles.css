@@ -1,0 +1,83 @@
+* {
+   margin: 0 auto;
+}
+body {
+  background-image: url("images/img2.jpg");
+  background-repeat: repeat;
+  background-color: #021f4d;
+  
+
+}
+img, .card img, .main img {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 17px;
+
+}
+#slider {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#items img {
+  float: left;
+  width: 400px;
+  
+}
+h2 {
+  color: aliceblue;
+  margin: 40px;
+}
+.a, .container a {
+  color: rgb(127, 221, 255);
+  margin: 40px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+#add {
+  /* background:rgba(50, 124, 227, 0.75); */
+  width: 100%;
+}
+.container, .container div {
+  /* background:rgba(50, 124, 227, 0.75); */
+  width: 100%;
+  padding: 20px;
+  display:flex;
+
+  background-color: #021f4ddf;
+    color: white;
+    
+    clear: both;
+}
